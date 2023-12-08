@@ -1,0 +1,152 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2c1604;
+    color: rgb(242, 238, 238);
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(252, 251, 251);
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Sections */
+
+.container { max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.about { background-color: rgb(183, 227, 186);
+    margin-bottom: 2rem;
+    border: 1px solid #093302;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.about:hover{
+    transform: translateY(-5px);
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.project {
+    background-color: rgb(174, 144, 162);
+    margin-bottom: 2rem;
+    border: 1px solid #a90c0c;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #cb1c1c;
+    color: rgb(238, 229, 229);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.2s;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-link:hover {
+    transform: translateY(-5px);
+    background-color: #e1b83c;
+    border: 1px solid #f4f9f9;
+}  
+
+/* Contact Section */
+
+.contact{background-color: rgb(146, 144, 174);
+    margin-bottom: 2rem;
+    border: 1px solid #140a64;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact:hover{ transform: translateY(-5px);}
+
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 0.5rem;
+    transition: transform 0.3s;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
